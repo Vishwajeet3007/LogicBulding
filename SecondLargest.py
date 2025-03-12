@@ -1,4 +1,4 @@
-def secondLarget(arr):
+def secondLargest(arr):
     if len(arr) < 2:
         return "Array must have at least two distinct elements."
     first = float('-inf')  # Smallest possible value
@@ -11,5 +11,5 @@ def secondLarget(arr):
             second = arr[i]
     return second
 arr = [4,56,7,4,26,77]
-result = secondLarget(arr)
+result = secondLargest(arr)
 print("Second Larget : ",result)
